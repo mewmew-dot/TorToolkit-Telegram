@@ -5,16 +5,16 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "d02f50eeb42b7b7b7ef6e2e1a12ce9bf"
+        API_ID = 5248327
+        BOT_TOKEN = "1860533035:AAEfn6_U1FIrjV4NyXQgMQhUjm02-Cztzvg"
+        BASE_URL_OF_BOT = "http://t.me/Mnibdibfbot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [1001177936485, 1657998462]
         OWNER_ID = 0
         
         # Google Drive Index Link should include the base dir also See readme for more info
@@ -50,7 +50,7 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
